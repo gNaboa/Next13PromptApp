@@ -11,7 +11,9 @@ type CardProps = {
     },
     prompt: string,
     tag: string
-  }
+  },
+  handleEdit?:()=>void,
+  handleDelete?:()=>void
 }
 
 function PromptCard({ post }: CardProps) {
